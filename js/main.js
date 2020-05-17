@@ -17,11 +17,11 @@ light.addEventListener("click", () => {
   root.style.setProperty("--light", "#ECE9E5");
   root.style.setProperty("--dark", "#403E4B");
   light.style.border = "1px solid #403E4B";
-  logo.src = 'imgs/Logo2.png'
+  logo.src = './imgs/Logo2.png'
 });
 dark.addEventListener("click", () => {
   root.style.setProperty("--light", "#403E4B");
   root.style.setProperty("--dark", "#ECE9E5");
   dark.style.border = "1px solid #ECE9E5";
-  logo.src = 'imgs/Logo3.png'
+  logo.src = './imgs/Logo3.png'
 });
